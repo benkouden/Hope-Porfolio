@@ -5,7 +5,7 @@ import About from "./components/about/About.jsx";
 import Services from "./components/services/Services.jsx";
 import Skills from "./components/skills/Skills.jsx";
 import ContactForm from "./components/contact/ContactForm.jsx";
-import Footer from "./components/footer/Footer.jsx";
+import Pied from "./components/Pied/Pied.jsx";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
       <Skills />
       <Services />
       <ContactForm/>
-      <Footer/>
+      <Pied/>
       
       
     </div>
