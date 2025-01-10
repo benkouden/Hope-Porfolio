@@ -9,7 +9,7 @@ const Services = () => {
           Services
         </h1>
         <p className="text-slate-500 text-center md:w-[50%] mx-auto">
-        Découvrez ci-dessous les services que je mets à votre disposition pour faire croître votre présence en ligne.
+          Découvrez les services que je mets à votre disposition pour développer votre présence en ligne.
         </p>
       </div>
       <div>

@@ -8,19 +8,17 @@ const Hero = () => {
         <div className="container grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[600px] space-y-4 py-12 sm:py-0 ">
           <div className="">
             <div className="space-y-2 grid justify-items-center sm:justify-items-start">
-              <p className="uppercase ">Hello</p>
-              <p className="text-3xl md:text-5xl text-center  font-bold text-black/80 dark:text-white">
-                Je suis Espoir SOSSAMEVI              </p>
+              <p className="uppercase">Bonjour</p>
+              <p className="text-3xl md:text-5xl text-center font-bold text-black/80 dark:text-white">
+                Je suis Espoir SOSSAMEVI
+              </p>
               <p className="text-3xl text-gray-700 dark:text-white">
-                Redacteur web
+                Rédacteur web professionnel
               </p>
               <p className="text-black/75 dark:text-white/70 text-center sm:text-left">
-              J'aide les entreprises et entrepreneurs à transformer leurs idées en contenus captivants et optimisés pour le web. Articles de blog, pages de site, fiches produits ou newsletters : mes mots racontent votre histoire et renforcent votre présence en ligne.
+                J'aide les entreprises et les entrepreneurs à transformer leurs idées en contenus captivants et optimisés pour le web. Articles de blog, pages de site, fiches produits ou newsletters : mes mots racontent votre histoire et renforcent ainsi votre présence en ligne.
               </p>
-              <a
-                href="#contact"
-                className="inline-block primary-btn !my-3"
-              >
+              <a href="#contact" className="inline-block primary-btn !my-3">
                 Contactez-moi
               </a>
             </div>
