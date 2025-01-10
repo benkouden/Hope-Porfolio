@@ -13,7 +13,7 @@ const Hero = () => {
                 Je suis Espoir SOSSAMEVI
               </p>
               <p className="text-3xl text-gray-700 dark:text-white">
-                Rédacteur web professionnel
+                Rédacteur web 
               </p>
               <p className="text-black/75 dark:text-white/70 text-center sm:text-left">
                 J'aide les entreprises et les entrepreneurs à transformer leurs idées en contenus captivants et optimisés pour le web. Articles de blog, pages de site, fiches produits ou newsletters : mes mots racontent votre histoire et renforcent ainsi votre présence en ligne.
