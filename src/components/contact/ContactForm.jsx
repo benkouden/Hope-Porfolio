@@ -22,10 +22,10 @@ const ContactForm = () => {
         e.preventDefault();
         emailjs
           .sendForm(
-            "service_3p4gghn",   // ID de votre service
-            "template_ajjlfvs",  // ID de votre modèle
+            "service_9qvfv0q",   // ID de votre service
+            "template_cw58kg3",  // ID de votre modèle
             e.target,            // Formulaire à soumettre
-            "Z5UlJ81KJ5CtKswJ0"  // Clé publique
+            "Lf1LHyFipiwkg31i_"  // Clé publique
           )
           .then(
             (result) => {
@@ -53,15 +53,15 @@ const ContactForm = () => {
                     <h2 className='text-2xl mb-4'>Get in touch</h2>
                     <div className='mb-4'>
                        <label className='block text-white/30' htmlFor="name">Name</label>
-                       <input className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black dark:bg-white text-white' type="text" name='name' value={formData.name} onChange={handleChange} />
+                       <input className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black dark:bg-primary text-white' type="text" name='name' value={formData.name} onChange={handleChange} />
                     </div>
                     <div className='mb-4'>
                        <label className='block text-white/30' htmlFor="email">Email</label>
-                       <input className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black dark:bg-white text-white' type="email" name='email' value={formData.email} onChange={handleChange} />
+                       <input className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black dark:bg-primary text-white' type="email" name='email' value={formData.email} onChange={handleChange} />
                     </div>
                     <div className='mb-4'>
                        <label className='block text-white/30' htmlFor="message">Message</label>
-                       <textarea className='mt-1 block w-full px-3 py-6 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black dark:bg-white text-white' name='message' value={formData.message} onChange={handleChange} />
+                       <textarea className='mt-1 block w-full px-3 py-6 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black dark:bg-primary text-white' name='message' value={formData.message} onChange={handleChange} />
                     </div>
                     <button type='submit' className='primary-btn my-6 mr-6 inline-block'>Send Email</button>
                 </form>
